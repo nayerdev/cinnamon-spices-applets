@@ -16,10 +16,10 @@ function _(str) {
 
 //applet command constants
 var CommandConstants = new function() {
-	this.COMMAND_START_XAMPP = "gksudo /opt/lampp/lampp start";
-	this.COMMAND_STOP_XAMPP = "gksudo /opt/lampp/lampp stop";
-	this.COMMAND_RESTART_XAMPP = "gksudo /opt/lampp/lampp restart";
-	this.COMMAND_PHP_CONFIG_EDIT = "gksudo xdg-open /opt/lampp/etc/php.ini";
+	this.COMMAND_START_XAMPP = "sudo /opt/lampp/lampp start";
+	this.COMMAND_STOP_XAMPP = "sudo /opt/lampp/lampp stop";
+	this.COMMAND_RESTART_XAMPP = "sudo /opt/lampp/lampp restart";
+	this.COMMAND_PHP_CONFIG_EDIT = "sudo xdg-open /opt/lampp/etc/php.ini";
 	this.COMMAND_LAUNCH_PHPMYADMIN = "xdg-open http://localhost/phpmyadmin/";
 	this.COMMAND_LAUNCH_WEBDIR = "xdg-open http://localhost/";
 	this.COMMAND_OPEN_WEBDIR = "nemo /opt/lampp/htdocs/";
